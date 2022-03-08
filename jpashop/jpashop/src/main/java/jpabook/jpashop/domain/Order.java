@@ -26,10 +26,13 @@ public class Order {
     @OneToMany(mappedBy = "order")
     private List<OrderItem> orderItems = new ArrayList<>();
 
-    private Delivery delivery;
+    @OneToOne
+    @JoinColumn(name = "delivery_id")
+    private Delivery delivery; //배송정보
 
     private LocalDateTime orderDate;
 
+    @Enumerated(EnumType.STRING)
     private OrderStatus status; //주문상태 [ORDER, CANCLE] enum타입
 
 
