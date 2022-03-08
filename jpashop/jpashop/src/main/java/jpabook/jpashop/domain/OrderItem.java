@@ -1,0 +1,25 @@
+package jpabook.jpashop.domain;
+
+
+import lombok.Getter;
+import lombok.Setter;
+
+import javax.persistence.*;
+
+@Entity
+@Getter @Setter
+public class OrderItem {
+
+    @Id @GeneratedValue
+    @Column(name = "order_item_id")
+    private Long id;
+
+    private Item item;
+
+    @ManyToOne
+    @JoinColumn(name = "order_id")  //테이블표에서  Order가 다 라서 order_id 매핑.
+    private Order order;
+
+    private  int orderPrice; //주문가격
+    private  int count; //주문수량량
+}
