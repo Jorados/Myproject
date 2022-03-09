@@ -37,5 +37,6 @@
     + 회원,주문,상품의 관계 -> 회원은 여러 상품을 주문할 수 있다. 그리고 한 번 주문할 때 여러 상품을 선택할 수
                              있으므로 주문과 상품은 다대다 관계다. 
                              
-                             
+* [week1](https://github.com/younghyeok-k/Communityapp/blob/main/Review/week1.md)
+
 
