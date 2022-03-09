@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:h2:tcp://localhost/~/jpashop;   #데이터베이스주소 #MVCC=TRUE
+    url: jdbc:h2:tcp://localhost/~/jpashop;   #데이터베이스주소 #MVCC=TRUE(현재 스프링버전에서는 안넣어도 됨)
     username: sa
     password:
     driver-class-name: org.h2.Driver
