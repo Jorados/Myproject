@@ -77,7 +77,7 @@ class OrderServiceTest {
         //given
         Member member = new Member();
         Item item = createBook("시골JPA",10000,10);
-        int orderCount = 11;
+        int orderCount = 8;
         //when
         assertThrows(NotEnoughStockException.class,
                 () -> orderService.order(member.getId(), item.getId(), orderCount), "재고 수량 부족 예외가 발생해야 한다.");
