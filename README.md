@@ -36,6 +36,11 @@
                              
                              
 
+### 최종 도메인 화면
+---
+![image](https://user-images.githubusercontent.com/100845256/159110882-f1a130ea-4ee8-4ed2-985b-cd028ac698a6.png)
+
+
 
 ### 공부기록
 ----
