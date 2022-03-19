@@ -45,5 +45,6 @@
 ### 공부기록
 ----
 
-* [1주차](https://github.com/Jorados/Myproject/blob/main/Progress/1%EC%A3%BC%EC%B0%A8.md)
+* [1주차 프로젝트생성 및 개발](https://github.com/Jorados/Myproject/blob/main/Progress/1%EC%A3%BC%EC%B0%A8.md)
+* [2주차 API개발 및 ](https://github.com/Jorados/Myproject/blob/main/Progress/API%20%EA%B0%9C%EB%B0%9C%EA%B3%BC%20%EC%84%B1%EB%8A%A5%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
 
